@@ -1,0 +1,55 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+    .section-titel h1::before {
+        width: 15%;
+        top: 40px;
+    }
+    .section-titel h1 {
+        transform: unset;
+    }
+    .section-padding {
+        padding: 30px;
+    }
+    .section-bg {
+        height: 350px;
+        margin-top: 20px;
+    }
+    .col-md-4:nth-child(2) .section-bg {
+        margin-top: 20px;
+    }
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+    .section-padding {
+        padding: 50px;
+    }
+    .section-titel h1 {
+        transform: unset;
+        padding-bottom: 10px;
+    }
+    .section-titel h1::before {
+        top: 35px;
+    }
+    .section-bg {
+        height: 250px;
+        margin-top: 15px;
+    }
+    .section-contain h2 {
+        font-size: 18px;
+    }
+    .col-md-4:nth-child(2) .section-bg {
+        margin-top: 15px;
+    }
+    .section-titel h1:before {
+        width: 40%;
+    }
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+}
